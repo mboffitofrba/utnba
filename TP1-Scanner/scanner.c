@@ -10,14 +10,12 @@ int scan_input(void){
     return tokenSPC;
   }else if(input == ','){
     ch = input;
-    //printf("TS %c", input);
     return tokenSEP;
   }else if(input == EOF){
     ch = input;
     return tokenFDT;
   }else{
     ch = input;
-    //printf("TC %c", input);
     return tokenCAD;
   }
   return input;
