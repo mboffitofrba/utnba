@@ -16,5 +16,5 @@ int scan_input(void){
     ch = input;
     return tokenCAD;
   }
-  return input;
+  return tokenInit;
 }
