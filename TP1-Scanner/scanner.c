@@ -9,10 +9,8 @@ int scan_input(void){
   if(isspace(input)){ 
     return tokenSPC;
   }else if(input == ','){
-    ch = input;
     return tokenSEP;
   }else if(input == EOF){
-    ch = input;
     return tokenFDT;
   }else{
     ch = input;
